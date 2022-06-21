@@ -1,10 +1,5 @@
 {application, spasvc,
  [{description, "An HTTP server for SPA application developing"},
-  {vsn, "0.1.0"},
-  {registered, []},
-  {applications, [kernel, stdlib, cowboy]},
-  {env,[]},
-  {modules, []},
-  {licenses, ["Apache 2.0"]},
-  {links, []}
+  {vsn, "1.0.0"},
+  {applications, [kernel, stdlib, cowboy]}
  ]}.
